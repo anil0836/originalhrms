@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-05-05 09:33:03.354359",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "device_checkout_add_section",
+  "employee",
+  "designation",
+  "date_of_joining",
+  "phone",
+  "reason_for_taking_device_home",
+  "column_break_vpvb",
+  "device_being_taken",
+  "laptopasset_name",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "device_checkout_add_section",
+   "fieldtype": "Section Break",
+   "label": "Device Checkout Add"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Link",
+   "label": "Designation",
+   "options": "Designation"
+  },
+  {
+   "fieldname": "date_of_joining",
+   "fieldtype": "Date",
+   "label": "Date Of Joining"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "reason_for_taking_device_home",
+   "fieldtype": "Text",
+   "label": "Reason For Taking Device Home",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vpvb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "device_being_taken",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Device Being Taken",
+   "reqd": 1
+  },
+  {
+   "fieldname": "laptopasset_name",
+   "fieldtype": "Data",
+   "label": "Laptop(Asset Name)"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Device Checkout",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-05-06 14:13:19.569622",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Device Checkout",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

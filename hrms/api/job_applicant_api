@@ -1,0 +1,28 @@
+import frappe
+
+@frappe.whitelist()
+def send_bulk_applicant_email(applicants):
+    import json
+
+    if isinstance(applicants, str):
+        applicants = json.loads(applicants)
+
+    email_list = []
+
+    for name in applicants:
+        doc = frappe.get_doc("Job Applicant", name)
+
+        if doc.email_id:
+            email_list.append(doc.email_id)
+
+    if not email_list:
+        frappe.throw("No valid emails found")
+
+    frappe.sendmail(
+        recipients=email_list,
+        subject="Regarding Your Application",
+        message="Thank you for applying. We will get back to you.",
+        now=False
+    )
+
+    return f"{len(email_list)} emails queued successfully"
