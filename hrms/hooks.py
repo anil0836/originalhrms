@@ -377,3 +377,8 @@ company_data_to_be_ignored = [
 ignore_translatable_strings_from = ["frappe", "erpnext"]
 employee_holiday_list = ["hrms.utils.holiday_list.get_holiday_list_for_employee"]
 repost_allowed_doctypes = ["Expense Claim"]
+fixtures = [
+    {
+        "dt": "Employee"
+    }
+]
