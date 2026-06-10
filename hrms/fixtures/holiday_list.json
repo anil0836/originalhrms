@@ -1,0 +1,816 @@
+[
+ {
+  "color": "#CB2929",
+  "country": "IN",
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2026-01-01",
+  "holiday_list_name": "Retrotech Holiday",
+  "holidays": [
+   {
+    "description": "Republic Day",
+    "holiday_date": "2026-01-26",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Maha Shivaratri",
+    "holiday_date": "2026-02-15",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Id-ul-Fitr (estimated)",
+    "holiday_date": "2026-03-21",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Bakrid (estimated)",
+    "holiday_date": "2026-05-28",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Muharram (estimated)",
+    "holiday_date": "2026-06-26",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Independence Day",
+    "holiday_date": "2026-08-15",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Janmashtami",
+    "holiday_date": "2026-09-04",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Gandhi Jayanti",
+    "holiday_date": "2026-10-02",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Dussehra",
+    "holiday_date": "2026-10-20",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Diwali",
+    "holiday_date": "2026-11-08",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Guru Nanak Jayanti",
+    "holiday_date": "2026-11-24",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Christmas",
+    "holiday_date": "2026-12-25",
+    "is_half_day": 0,
+    "weekly_off": 0
+   }
+  ],
+  "is_half_day": 0,
+  "modified": "2026-04-17 11:23:34.121454",
+  "name": "Retrotech Holiday",
+  "subdivision": "HR",
+  "to_date": "2026-12-31",
+  "total_holidays": 12,
+  "weekly_off": ""
+ },
+ {
+  "color": null,
+  "country": "IN",
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2026-04-03",
+  "holiday_list_name": "Holiday list",
+  "holidays": [
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-04-05",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-04-11",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-04-12",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-04-18",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-04-19",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-04-25",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-04-26",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Confederate Memorial Day",
+    "holiday_date": "2026-04-27",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-05-02",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-05-03",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-05-09",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-05-10",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-05-16",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-05-17",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-05-23",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-05-24",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Memorial Day",
+    "holiday_date": "2026-05-25",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-05-30",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-05-31",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Jefferson Davis Birthday",
+    "holiday_date": "2026-06-01",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-06-06",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-06-07",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-06-13",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-06-14",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Juneteenth National Independence Day",
+    "holiday_date": "2026-06-19",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-06-20",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-06-21",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-06-27",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-06-28",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Independence Day (observed)",
+    "holiday_date": "2026-07-03",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-07-04",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-07-05",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-07-11",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-07-12",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-07-18",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-07-19",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-07-25",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-07-26",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-08-01",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-08-02",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-08-08",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-08-09",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-08-15",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-08-16",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-08-22",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-08-23",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-08-29",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-08-30",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-09-05",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-09-06",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Labor Day",
+    "holiday_date": "2026-09-07",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-09-12",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-09-13",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-09-19",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-09-20",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-09-26",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-09-27",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-10-03",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-10-04",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-10-10",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-10-11",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Columbus Day / American Indian Heritage Day / Fraternal Day",
+    "holiday_date": "2026-10-12",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-10-17",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-10-18",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-10-24",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-10-25",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-10-31",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-11-01",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-11-07",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-11-08",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Veterans Day",
+    "holiday_date": "2026-11-11",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-11-14",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-11-15",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-11-21",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-11-22",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Thanksgiving Day",
+    "holiday_date": "2026-11-26",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-11-28",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-11-29",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-12-05",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-12-06",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-12-12",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-12-13",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-12-19",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-12-20",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Christmas Day",
+    "holiday_date": "2026-12-25",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2026-12-26",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2026-12-27",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "New Year's Day",
+    "holiday_date": "2027-01-01",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-01-02",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-01-03",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-01-09",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-01-10",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-01-16",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-01-17",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Martin Luther King, Jr & Robert E. Lee's Birthday",
+    "holiday_date": "2027-01-18",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-01-23",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-01-24",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-01-30",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-01-31",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-02-06",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-02-07",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-02-13",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-02-14",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "George Washington & Thomas Jefferson's Birthday",
+    "holiday_date": "2027-02-15",
+    "is_half_day": 0,
+    "weekly_off": 0
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-02-20",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-02-21",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-02-27",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-02-28",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-03-06",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-03-07",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-03-13",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-03-14",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-03-20",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-03-21",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-03-27",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-03-28",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Saturday",
+    "holiday_date": "2027-04-03",
+    "is_half_day": 0,
+    "weekly_off": 1
+   },
+   {
+    "description": "Sunday",
+    "holiday_date": "2027-04-04",
+    "is_half_day": 0,
+    "weekly_off": 1
+   }
+  ],
+  "is_half_day": 0,
+  "modified": "2026-04-03 09:25:33.983818",
+  "name": "Holiday list",
+  "subdivision": "HR",
+  "to_date": "2027-04-04",
+  "total_holidays": 118,
+  "weekly_off": "Sunday"
+ }
+]

@@ -1,0 +1,30 @@
+[
+ {
+  "amended_from": null,
+  "color": null,
+  "company": "RETROTECH BUSINESS SOLUTIONS PRIVATE LIMITED",
+  "department": "Sales - RBSPL",
+  "description": null,
+  "docstatus": 1,
+  "doctype": "Leave Application",
+  "employee": "HR-EMP-00005",
+  "employee_name": "Nidhi Yadav",
+  "follow_via_email": 0,
+  "from_date": "2026-04-23",
+  "half_day": 0,
+  "half_day_date": null,
+  "leave_approver": "nora@b2bexportsllc.com",
+  "leave_approver_name": "nora@b2bexportsllc.com",
+  "leave_balance": 0.0,
+  "leave_type": "Leave Without Pay",
+  "letter_head": "Company Letterhead - Grey",
+  "modified": "2026-04-21 15:47:52.057044",
+  "name": "HR-LAP-2026-00001",
+  "naming_series": "HR-LAP-.YYYY.-",
+  "posting_date": "2026-04-21",
+  "salary_slip": null,
+  "status": "Approved",
+  "to_date": "2026-04-23",
+  "total_leave_days": 1.0
+ }
+]

@@ -1,0 +1,40 @@
+[
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "cron_format": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "After Insert",
+  "enable_rate_limit": 0,
+  "event_frequency": "All",
+  "modified": "2026-04-15 16:43:23.472066",
+  "module": null,
+  "name": "Email sending by userid",
+  "rate_limit_count": 5,
+  "rate_limit_seconds": 86400,
+  "reference_doctype": "Job Applicant",
+  "script": "user = frappe.session.user\r\n\r\n# Get logged-in user's email\r\nuser_email = frappe.db.get_value(\"User\", user, \"email\")\r\n\r\nfrappe.sendmail(\r\n    recipients=[\"anilpatel.mt2@gmail.com\"],\r\n    subject=\"Test Email\",\r\n    message=f\"Hello from {user}\",\r\n    reply_to=user_email or \"auctionnoreply@b2bexportsllc.com\"\r\n)",
+  "script_type": "DocType Event"
+ },
+ {
+  "allow_guest": 1,
+  "api_method": "send_bulk_email",
+  "cron_format": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Insert",
+  "enable_rate_limit": 0,
+  "event_frequency": "All",
+  "modified": "2026-04-24 13:23:14.741791",
+  "module": null,
+  "name": "Bulk email",
+  "rate_limit_count": 5,
+  "rate_limit_seconds": 86400,
+  "reference_doctype": "",
+  "script": "docname = frappe.form_dict.get(\"docname\") or frappe.form_dict.get(\"name\")\r\n\r\nif not docname:\r\n    frappe.throw(\"Missing docname\")\r\n\r\ndoc = frappe.get_doc(\"Email Campaign\", docname)\r\n\r\nif doc.email_campaign_for != \"Email Group\":\r\n    frappe.throw(\"Please select Email Group for bulk sending\")\r\n\r\nmembers = frappe.get_all(\r\n    \"Email Group Member\",\r\n    filters={\"email_group\": doc.recipient},\r\n    fields=[\"email\"]\r\n)\r\n\r\nemail_list = [m.email for m in members if m.email]\r\n\r\nif not email_list:\r\n    frappe.throw(\"No emails found in selected Email Group\")\r\n\r\ncampaign = frappe.get_doc(\"Campaign\", doc.campaign)\r\n\r\nif not campaign.campaign_schedules:\r\n    frappe.throw(\"No Email Template found in Campaign\")\r\n\r\ntemplate_name = campaign.campaign_schedules[0].email_template\r\ntemplate = frappe.get_doc(\"Email Template\", template_name)\r\n\r\nfrappe.sendmail(\r\n    recipients=email_list,\r\n    subject=template.subject or \"No Subject\",\r\n    message=template.response or \"No Message\",\r\n    now=False\r\n)\r\n\r\nfrappe.response[\"message\"] = str(len(email_list)) + \" emails queued successfully\"",
+  "script_type": "API"
+ }
+]

@@ -378,7 +378,17 @@ ignore_translatable_strings_from = ["frappe", "erpnext"]
 employee_holiday_list = ["hrms.utils.holiday_list.get_holiday_list_for_employee"]
 repost_allowed_doctypes = ["Expense Claim"]
 fixtures = [
-    {
-        "dt": "Employee"
-    }
+    {"dt": "Employee"},
+    {"dt": "Department"},
+    {"dt": "Designation"},
+    {"dt": "Branch"},
+    {"dt": "Holiday List"},
+    {"dt": "Attendance"},
+    {"dt": "Leave Type"},
+    {"dt": "Leave Allocation"},
+    {"dt": "Leave Application"},
+    {"dt": "Job Applicant"},
+    {"dt": "Job Opening"},
+    {"dt": "Client Script"},
+    {"dt": "Server Script"},
 ]
